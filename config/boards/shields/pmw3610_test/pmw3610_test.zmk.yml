@@ -1,0 +1,9 @@
+
+file_format: "1"
+id: pmw3610_test
+name: PMW3610 Trackball Test
+type: shield
+requires:
+  - nice_nano_v2
+features:
+  - pointer
