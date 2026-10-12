@@ -3,3 +3,4 @@ include:
   - board: nice_nano/nrf52840/zmk
     shield: pmw3610_test
     artifact-name: pmw3610_test
+    snippet: zmk-usb-logging
