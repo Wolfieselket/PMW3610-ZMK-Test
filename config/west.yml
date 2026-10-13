@@ -4,8 +4,8 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: my-pmw-driver
-    url-base: https://github.com/Wolfieselket/zmk-pmw3610-driver
-    
+      url-base: https://github.com/Wolfieselket
+
   projects:
     - name: zmk
       remote: zmkfirmware
