@@ -1,0 +1,3 @@
+
+config SHIELD_NICEVIEW_TEST
+    def_bool $(shields_list_contains,niceview_test)
