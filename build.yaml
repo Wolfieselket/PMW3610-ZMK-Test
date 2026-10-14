@@ -1,6 +1,12 @@
 
 include:
+  # Existing PMW3610 test
   - board: nice_nano/nrf52840/zmk
     shield: pmw3610_test
     artifact-name: pmw3610_test
     snippet: zmk-usb-logging
+
+  # New nice!view display test
+  - board: nice_nano/nrf52840/zmk
+    shield: niceview_test nice_view_adapter nice_view
+    artifact-name: niceview_test
