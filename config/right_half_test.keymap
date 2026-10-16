@@ -6,7 +6,7 @@
  *   Y   U   I   O   P   BSPC
  *   H   J   K   L   ;   '
  *   N   M   ,   .   /   ESC
- *   ENTER LAYER2 RALT NONE (four thumb switches)
+ *   ENTER LAYER2 RALT (AltGr) NONE (four thumb switches)
  *
  * The test showed the scan map is reversed in both axes:
  * top=XWVUTS, middle=RQPONM, bottom=LKJIHG, thumbs=FEDC.
@@ -19,7 +19,7 @@
             display-name = "DEFAULT";
             bindings = <
                 /* Matrix row 0 (scan indices 0..5): two unused then four thumbs in reverse */
-                &none &none &none &kp LALT &mo 1 &kp RET
+                &none &none &none &kp RALT &mo 1 &kp RET
                 /* Matrix row 1: bottom alphabet row, reverse physical order */
                 &kp ESC &kp FSLH &kp DOT &kp COMMA &kp M &kp N
                 /* Matrix row 2: home row, reverse physical order */

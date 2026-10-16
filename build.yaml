@@ -16,3 +16,8 @@ include:
   - board: nice_nano/nrf52840/zmk
     shield: right_half_test
     artifact-name: right_half_custom_default_trackball
+
+  # Integrated right-half matrix + PMW3610 + static wolfie nice!view
+  - board: nice_nano/nrf52840/zmk
+    shield: right_half_test nice_view_adapter wolfie_niceview
+    artifact-name: right_half_keys_trackball_eye
