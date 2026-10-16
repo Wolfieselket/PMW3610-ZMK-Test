@@ -1,0 +1,10 @@
+
+if SHIELD_PMW3610_TEST
+
+config ZMK_POINTING
+    default y
+
+config PMW3610_ALT
+    default y
+
+endif

@@ -1,0 +1,7 @@
+
+if SHIELD_NICEVIEW_TEST
+
+config ZMK_KEYBOARD_NAME
+    default "NiceView Test"
+
+endif
