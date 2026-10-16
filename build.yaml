@@ -11,12 +11,8 @@ include:
     shield: niceview_test nice_view_adapter wolfie_niceview
     artifact-name: wolfie_right_eye
 
-  # Right-half keys + working PMW3610; display deliberately excluded for now
-  - board: nice_nano/nrf52840/zmk
-    shield: right_half_test
-    artifact-name: right_half_keys_trackball
 
   # Right-half keys + working PMW3610; display deliberately excluded for now
   - board: nice_nano/nrf52840/zmk
     shield: right_half_test
-    artifact-name: right_half_keys_trackball
+    artifact-name: right_half_custom_default_trackball
