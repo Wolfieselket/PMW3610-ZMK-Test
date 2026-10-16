@@ -6,7 +6,7 @@
  *   Y   U   I   O   P   BSPC
  *   H   J   K   L   ;   '
  *   N   M   ,   .   /   ESC
- *   ENTER LAYER2 LALT NONE (four thumb switches)
+ *   ENTER LAYER2 RALT NONE (four thumb switches)
  *
  * The test showed the scan map is reversed in both axes:
  * top=XWVUTS, middle=RQPONM, bottom=LKJIHG, thumbs=FEDC.
