@@ -71,10 +71,10 @@
              * Thumbs: 4 left keys, then 4 right keys. */
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP  &msc SCRL_DOWN  &trans     &none   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK     &mkp RCLK       &mkp MCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans          &trans     &none   &trans  &trans
-                &none   &trans  &trans  &trans  &trans        &trans          &trans     &none
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &msc SCRL_UP    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5   &none      &msc SCRL_DOWN  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &none           &trans  &trans
+                &none   &trans  &trans  &trans  &trans     &trans     &trans     &none
             >;
         };
 
