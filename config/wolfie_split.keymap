@@ -67,10 +67,20 @@
         layer_3 {
             display-name = "Mouse";
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T      &mkp LCLK  &mkp MB3  &mkp RCLK  &msc SCRL_UP    &none  &none
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D     &kp F  &kp G      &mkp MB4   &mkp MB5  &none      &msc SCRL_DOWN  &none  &none
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C     &kp V  &kp B      &none      &none     &none      &none           &none  &none
-                         &none  &kp LGUI  &mo 1  &kp SPACE  &kp RET    &mo 2     &kp LALT   &mo 3
+&kp TAB           &kp Q  &kp W   &kp E     &kp R  &kp T      &mkp LCLK  &mkp MB3  &mkp RCLK  &msc SCRL_UP    &none  &none
+&kp LEFT_SHIFT    &kp A  &kp S   &kp D     &kp F  &kp G      &mkp MB4   &mkp MB5  &none      &msc SCRL_DOWN  &none  &none
+&kp LEFT_CONTROL  &kp Z  &kp X   &kp C     &kp V  &kp B      &none      &none     &none      &none           &none  &none
+                         &tog 4  &kp LGUI  &mo 1  &kp SPACE  &kp RET    &mo 2     &kp LALT   &mo 3
+            >;
+        };
+
+        layer_4 {
+            display-name = "Gaming";
+            bindings = <
+&kp TAB           &kp Q  &kp W   &kp E     &kp R  &kp T      &mkp LCLK  &mkp MB3  &mkp RCLK  &msc SCRL_UP    &none  &none
+&kp LEFT_SHIFT    &kp A  &kp S   &kp D     &kp F  &kp G      &mkp MB4   &mkp MB5  &none      &msc SCRL_DOWN  &none  &none
+&kp LEFT_CONTROL  &kp Z  &kp X   &kp C     &kp V  &kp B      &none      &none     &none      &none           &none  &none
+                         &tog 4  &kp LGUI  &mo 1  &kp SPACE  &kp RET    &mo 2     &kp LALT   &mo 3
             >;
         };
 
@@ -152,7 +162,7 @@
 
             bindings = <
 &kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T      &mkp MB1  &mkp MB2  &msc SCRL_UP    &mkp MCLK  &kp P     &kp BSPC
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D     &kp F  &kp G      &mkp MB4  &mkp MB5  &msc SCRL_DOWN  &kp L      &kp SEMI  &tog 9
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D     &kp F  &kp G      &mkp MB4  &mkp MB5  &msc SCRL_DOWN  &kp L      &kp SEMI  &tog 10
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp C     &kp V  &kp B      &kp N     &kp M     &kp COMMA       &none      &kp FSLH  &kp ESCAPE
                          &none  &kp LGUI  &mo 1  &kp SPACE  &kp RET   &mo 2     &kp LALT        &none
             >;
