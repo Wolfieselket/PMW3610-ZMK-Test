@@ -87,10 +87,10 @@
         layer_5 {
             display-name = "QWERTY";
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &msc SCRL_UP    &kp BSPC
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D     &kp F  &kp G      &kp I         &mkp LCLK     &mkp RCLK     &mkp MCLK     &msc SCRL_DOWN  &kp SQT
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C     &kp V  &kp B      &kp M         &mkp MB4      &mkp MB5      &kp PERIOD    &kp FSLH        &kp ESCAPE
-                         &none  &kp LGUI  &mo 1  &kp SPACE  &kp RET       &mo 2         &kp LALT      &mo 3
+&kp TAB           &kp Q  &kp W  &kp E     &kp R  &kp T      &kp CAPS  &kp N1          &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp BSPC
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D     &kp F  &kp G      &kp I     &msc SCRL_UP    &mkp LCLK     &mkp RCLK     &mkp MCLK     &kp SQT
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C     &kp V  &kp B      &kp M     &msc SCRL_DOWN  &mkp MB4      &mkp MB5      &kp FSLH      &kp ESCAPE
+                         &none  &kp LGUI  &mo 1  &kp SPACE  &kp RET   &mo 2           &kp LALT      &mo 3
             >;
         };
     };
